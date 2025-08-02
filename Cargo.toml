@@ -1,0 +1,14 @@
+[package]
+name = "pnet_layers"
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+
+[dependencies]
+log = "0.4.26"
+pnet = { version = "0.35.0", features = ["serde"] }
+rand = "0.9.0"
+pnet_macros = "0.35.0"
+pnet_macros_support = "0.35.0"
+hex = "0.4.3"
+serde = { version = "1.0.0", features = ["derive"] }
