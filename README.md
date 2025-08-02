@@ -1,6 +1,6 @@
 # pnet_layers
 
-A scapy like wrapper around the pnet crate to easily parse, craft or manipulate network packets.
+A scapy like wrapper around the [pnet](https://crates.io/crates/pnet) crate to easily parse, craft or manipulate network packets.
 
 ```rs
 use pnet::util::MacAddr;
