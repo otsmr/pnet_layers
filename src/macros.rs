@@ -66,7 +66,8 @@ macro_rules! create_modify {
         }
     };
 }
-/// create `create_modify` function
+
+/// create `create_set_payload` function
 #[macro_export]
 macro_rules! create_set_payload {
     () => {
