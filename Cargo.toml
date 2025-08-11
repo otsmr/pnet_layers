@@ -8,7 +8,6 @@ authors = ["Tobias Müller <git@tsmr.eu>"]
 description = "A scapy like wrapper around the pnet crate to easily parse, craft or manipulate network packets in Rust."
 repository = "https://github.com/otsmr/pnet_layers"
 categories = ["network-programming"]
-license-file = "./LICENSE"
 
 [dependencies]
 log = "0.4.26"
