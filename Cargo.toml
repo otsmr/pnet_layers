@@ -3,12 +3,12 @@ name = "pnet_layers"
 version = "0.1.0"
 edition = "2024"
 license = "Apache-2.0"
-readme = "../README.md"
+readme = "./README.md"
 authors = ["Tobias Müller <git@tsmr.eu>"]
 description = "A scapy like wrapper around the pnet crate to easily parse, craft or manipulate network packets in Rust."
 repository = "https://github.com/otsmr/pnet_layers"
-categories = ["network-programming", "cryptography"]
-license-file = "../LICENSE"
+categories = ["network-programming"]
+license-file = "./LICENSE"
 
 [dependencies]
 log = "0.4.26"
